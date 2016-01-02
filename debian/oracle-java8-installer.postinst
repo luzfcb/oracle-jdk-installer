@@ -145,7 +145,7 @@ fp_download_and_unpack() {
 
 		# downloading jdk8
 		echo "Downloading Oracle Java 8..."
-		WGETRC=wgetrc wget --continue --no-check-certificate -O $FILENAME --header "Cookie: oraclelicense=a" $PARTNER_URL \
+		WGETRC=aria2c --continue --max-connection-per-server=10 --check-certificate=false --header="Cookie:oraclelicense=a" -o $FILENAME $PARTNER_URL \
 			|| fp_exit_with_error "download failed"
 		echo "Download done."
 
