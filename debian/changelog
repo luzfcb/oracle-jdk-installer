@@ -1,3 +1,9 @@
+oracle-java8-installer (8u66+8u65arm-1~webupd8~2) precise; urgency=medium
+
+  * Use aria2 instead of wget to download jdk
+
+ -- Fabio C. Barrioneuvo da Luz <bnafta@gmail.com>  Sat, 01 Jan 2016 19:31:19 -0300
+
 oracle-java8-installer (8u66+8u65arm-1~webupd8~1) precise; urgency=medium
 
   * New Java release
