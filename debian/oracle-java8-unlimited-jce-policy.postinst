@@ -63,7 +63,7 @@ fp_download_and_unpack() {
 
 		# downloading nlimited JCE Policy for Oracle Java 8
 		echo "Downloading Unlimited JCE Policy for Oracle Java 8..."
-		WGETRC=aria2c --continue --max-connection-per-server=10 --check-certificate=false --header="Cookie:oraclelicense=a" -o $FILENAME $PARTNER_URL \
+		WGETRC=wgetrc aria2c --continue --max-connection-per-server=10 --check-certificate=false --header="Cookie:oraclelicense=a" -o $FILENAME $PARTNER_URL \
 			|| fp_exit_with_error "download failed"
 		echo "Download done."
 	fi # end if local file

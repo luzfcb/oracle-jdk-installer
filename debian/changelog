@@ -1,8 +1,14 @@
-oracle-java8-installer (8u66+8u65arm-1~webupd8~2) precise; urgency=medium
+oracle-java8-installer (8u67+8u66arm-1~webupd8~1ubuntu2) UNRELEASED; urgency=medium
+
+  * Fix download script
+
+ -- Fabio C. Barrioneuvo da Luz <bnafta@gmail.com>  Sun, 03 Jan 2016 07:56:34 -0300
+
+oracle-java8-installer (8u67+8u66arm-1~webupd8~1ubuntu1) trusty; urgency=medium
 
   * Use aria2 instead of wget to download jdk
 
- -- Fabio C. Barrioneuvo da Luz <bnafta@gmail.com>  Sat, 01 Jan 2016 19:31:19 -0300
+ -- Fabio C. Barrioneuvo da Luz <bnafta@gmail.com>  Sun, 03 Jan 2016 07:05:12 -0300
 
 oracle-java8-installer (8u66+8u65arm-1~webupd8~1) precise; urgency=medium
 
@@ -511,3 +517,4 @@ oracle-java8-installer (8b54-0~webupd8~1) maverick; urgency=medium
   * initial upload
 
  -- Alin Andrei <webupd8@gmail.com>  Tue, 04 Sep 2012 14:18:29 +0200
+
